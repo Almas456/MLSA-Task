@@ -19,7 +19,7 @@ import React from "react";
  * Need an image? Check out https://unsplash.com to download a photo you
  * freely use on your site.
  */
-import image from "../images/design-desk.jpeg";
+import image from "../images/desk.jpg";
 
 const imageAltText = "desktop with books and laptop";
 
@@ -31,28 +31,28 @@ const imageAltText = "desktop with books and laptop";
  */
 const projectList = [
   {
-    title: "10 Things To Know About Azure Static Web Apps 🎉",
+    title: "Meal Finder",
     description:
-      "Collaboration to create a beginner friendly article to help explain Azure Static Web Apps and tooling to get started.",
-    url: "https://dev.to/azure/10-things-to-know-about-azure-static-web-apps-3n4i",
+      "Find-Meals-For-Your-Ingredients revolutionizes your cooking experience by providing personalized recipes based on the ingredients you have, transforming your kitchen into a culinary haven.",
+    url: "https://github.com/Almas456/Find-Meals-For-Your-Ingredients",
   },
   {
-    title: "Web Development for Beginners",
+    title: "Dad Jokes",
     description:
-      "Contributed sketch note imagery to accompany each lesson. These help provide visual representation of what is being taught.",
-    url: "https://github.com/microsoft/web-dev-for-beginners",
+      "The Dad Joke Extension is a browser extension that delivers a new dad joke every time you click its button, adding humor and levity to your browsing experience. It's a fun and easy way to inject some humor into your day, and new jokes are added regularly.",
+    url: "https://github.com/Almas456/Dad-Jokes",
   },
   {
-    title: "My Resume Site",
+    title: "ChatGPT Clone",
     description:
-      "Created from Microsoft's resume workshop and deployed to GitHub pages. Includes my experience and design abilities.",
-    url: "https://github.com/microsoft/workshop-library/tree/main/full/build-resume-website",
+      "ChatGPT Clone: Your virtual conversational companion, leveraging cutting-edge language models to provide dynamic and engaging interactions, tailored to your needs.",
+    url: "https://github.com/Almas456/Chat-GPT-Clone",
   },
   {
-    title: "GitHub Codespaces and github.dev",
+    title: "Random Advice Generator",
     description:
-      "Video interview to explain when to use GitHub.dev versus GitHub Codespaces, and how best to use each tool.",
-    url: "https://www.youtube.com/watch?v=c3hHhRME_XI",
+      "A random advice generator is a tool that generates random pieces of advice or guidance on various topics. It can be used for personal growth, problem-solving, inspiration, and entertainment.",
+    url: "https://github.com/Almas456/Random-Advice-Generator",
   },
 ];
 

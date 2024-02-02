@@ -10,13 +10,14 @@ import React from "react";
  * About background image
  *
  * Below is a sample image. Upload the image of your choice into the "images"
+ // eslint-disable-next-line prettier/prettier
  * directory and import here for use. Then, set imageAltText to string that 
  * represents what you see in that image.
  *
  * Need an image? Check out https://unsplash.com to download a image you
  * freely use on your site.
  */
-import image from "../images/motion-background.jpg";
+import image from "../images/whites.jpg";
 
 const imageAltText = "purple and blue abstract background";
 
@@ -24,7 +25,7 @@ const imageAltText = "purple and blue abstract background";
  * Sort description that expands on your title on the Home component.
  */
 const description =
-  "I'm a UI/UX student studying at Barnett Technical University. I enjoy creating unique and simplistic user interfaces in creative ways.";
+  "Hey there! I'm Almas Shaikh, rocking it at SIES (Nerul) College of Arts, Science, and Commerce! 🚀 Thriving in hackathons is my jam, and I'm all about the coding magic with Java, React, Python, Django, HTML, CSS, and JavaScript. 🌟 Super stoked about becoming a software developer – watch out, tech world, here I come! 🚀✨";
 
 /**
  * List of some of skills or technologies you work on, are learning,
@@ -32,11 +33,11 @@ const description =
  */
 const skillsList = [
   "Web design",
-  "User experience",
-  "Inclusive design",
-  "Focus group testing",
-  "Mobile user interfaces",
+  "Software Developer",
+  "SEO ",
   "Graphic design",
+  "Python",
+  "Azure",
 ];
 
 /**
@@ -45,7 +46,7 @@ const skillsList = [
  * about you on a professional level.
  */
 const detailOrQuote =
-  "I am passionate about solving problems in new creative ways to drive innovation. By leveraging my UI/UX experience I continually look for new and better ways to make tech accessible by all.";
+  "Empowered by code and fueled by a passion for innovation, I navigate the digital realm, weaving solutions that not only solve problems but redefine the possibilities. With Java, React, Python, Django, HTML, CSS, and JavaScript as my brushes, and a keen sense of UI/UX as my canvas, I am on a mission to make technology not just functional, but an accessible and enriching experience for all.";
 
 const About = () => {
   return (
